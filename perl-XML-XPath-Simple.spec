@@ -51,7 +51,7 @@ XML::XPath::Simple nie obs³uguje dokumentów z elementami o mieszanej
 tre¶ci (tekst i znaczniki), nie pozwala te¿ na przemieszczanie po
 strukturze drzewa ani liczenie elementów. O ile ten modu³ pozwala na
 dostêp do okre¶lonych wêz³ów przy u¿yciu funkcji position(),
-wewnêtrznie niekoniecznie analizuje strukturê XML w okre¶lonej
+wewnêtrznie niekoniecznie analizuje strukturê XML-a w okre¶lonej
 kolejno¶ci, wiêc wywo³ania position() mog± nie zwróciæ takiej
 warto¶ci, jak± oczekiwano.
 
