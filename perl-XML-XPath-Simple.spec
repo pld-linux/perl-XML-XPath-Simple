@@ -61,7 +61,6 @@ warto¶ci, jak± oczekiwano.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
