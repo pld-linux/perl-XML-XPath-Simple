@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	XPath-Simple
+%define		pdir	XML
+%define		pnam	XPath-Simple
 Summary:	XML::XPath::Simple - very simple interface for XPaths
 Summary(pl):	XML::XPath::Simple - bardzo prosty interfejs do XPath
 Name:		perl-XML-XPath-Simple
