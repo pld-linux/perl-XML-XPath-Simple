@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	XPath-Simple
 Summary:	XML::XPath::Simple - very simple interface for XPaths
-Summary(pl):	XML::XPath::Simple - bardzo prosty interfejs do XPath
+Summary(pl.UTF-8):   XML::XPath::Simple - bardzo prosty interfejs do XPath
 Name:		perl-XML-XPath-Simple
 Version:	0.05
 Release:	1
@@ -40,20 +40,20 @@ internally the module doesn't necessarially parse the XML structure in
 any specific order, so position() calls may not return the value
 expected.
 
-%description -l pl
-XML::XPath::Simple zosta³ zaprojektowany aby umo¿liwiæ u¿ycie prostej
-sk³adni Abbreviated XPath do dostêpu do warto¶ci z ma³ego dokumentu
-XML. Ten modu³ nie ma byæ pe³nym zamiennikiem XML::XPath i nie
-obs³uguje ca³ej rekomendacji XPath z W3C. Ma byæ prostym sposobem na
-dostêp do danych XML z ma³ych, nie z³o¿onych struktur.
+%description -l pl.UTF-8
+XML::XPath::Simple zostaÅ‚ zaprojektowany aby umoÅ¼liwiÄ‡ uÅ¼ycie prostej
+skÅ‚adni Abbreviated XPath do dostÄ™pu do wartoÅ›ci z maÅ‚ego dokumentu
+XML. Ten moduÅ‚ nie ma byÄ‡ peÅ‚nym zamiennikiem XML::XPath i nie
+obsÅ‚uguje caÅ‚ej rekomendacji XPath z W3C. Ma byÄ‡ prostym sposobem na
+dostÄ™p do danych XML z maÅ‚ych, nie zÅ‚oÅ¼onych struktur.
 
-XML::XPath::Simple nie obs³uguje dokumentów z elementami o mieszanej
-tre¶ci (tekst i znaczniki), nie pozwala te¿ na przemieszczanie po
-strukturze drzewa ani liczenie elementów. O ile ten modu³ pozwala na
-dostêp do okre¶lonych wêz³ów przy u¿yciu funkcji position(),
-wewnêtrznie niekoniecznie analizuje strukturê XML-a w okre¶lonej
-kolejno¶ci, wiêc wywo³ania position() mog± nie zwróciæ takiej
-warto¶ci, jak± oczekiwano.
+XML::XPath::Simple nie obsÅ‚uguje dokumentÃ³w z elementami o mieszanej
+treÅ›ci (tekst i znaczniki), nie pozwala teÅ¼ na przemieszczanie po
+strukturze drzewa ani liczenie elementÃ³w. O ile ten moduÅ‚ pozwala na
+dostÄ™p do okreÅ›lonych wÄ™zÅ‚Ã³w przy uÅ¼yciu funkcji position(),
+wewnÄ™trznie niekoniecznie analizuje strukturÄ™ XML-a w okreÅ›lonej
+kolejnoÅ›ci, wiÄ™c wywoÅ‚ania position() mogÄ… nie zwrÃ³ciÄ‡ takiej
+wartoÅ›ci, jakÄ… oczekiwano.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
