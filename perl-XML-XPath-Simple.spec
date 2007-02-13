@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	XPath-Simple
 Summary:	XML::XPath::Simple - very simple interface for XPaths
-Summary(pl.UTF-8):   XML::XPath::Simple - bardzo prosty interfejs do XPath
+Summary(pl.UTF-8):	XML::XPath::Simple - bardzo prosty interfejs do XPath
 Name:		perl-XML-XPath-Simple
 Version:	0.05
 Release:	1
