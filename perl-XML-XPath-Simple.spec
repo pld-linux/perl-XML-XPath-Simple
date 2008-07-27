@@ -9,7 +9,7 @@ Summary:	XML::XPath::Simple - very simple interface for XPaths
 Summary(pl.UTF-8):	XML::XPath::Simple - bardzo prosty interfejs do XPath
 Name:		perl-XML-XPath-Simple
 Version:	0.05
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
