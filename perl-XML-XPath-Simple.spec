@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	XPath-Simple
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::XPath::Simple - very simple interface for XPaths
 Summary(pl.UTF-8):	XML::XPath::Simple - bardzo prosty interfejs do XPath
 Name:		perl-XML-XPath-Simple
@@ -14,12 +14,13 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c97b04ecd031e7a27e5b8eb09a44928f
+URL:		http://search.cpan.org/dist/XML-XPath-Simple/
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.18
 BuildRequires:	perl-XML-Simple >= 1.08
 %endif
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-XML-Simple >= 1.08
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
